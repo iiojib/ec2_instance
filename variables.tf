@@ -21,7 +21,7 @@ variable "subnet" {
 variable "sg" {
   description = "AWS Secruity Group"
   type        = list(string)
-  default     = ["sg-307ea059", "sg-24319f5f"]
+  default     = ["sg-24319f5f"]
 }
 
 variable "vpc_id" {
