@@ -24,10 +24,6 @@ variable "sg" {
   default     = ["sg-307ea059", "sg-24319f5f"]
 }
 
-variable "key" {
-  description = "AWS Key"
-}
-
 variable "vpc_id" {
   description = "VPC"
   default = "vpc-596aa03e"
