@@ -5,7 +5,7 @@ variable "region" {
 
 variable "instance_type" {
   description = "Instance Type"
-  default = "t2.nano"
+#   default = "t2.nano"
 }
 
 variable "instance_count" {
